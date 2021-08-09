@@ -1,18 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@color/colorPrimary"
+    >
 
-    <TextView
+
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:id="@+id/arfragment"-->
+<!--        android:name="com.google.ar.sceneform.ux.ArFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:layout="@layout/sceneform_ux_fragment_layout" />-->
+
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/extmenufab"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="27dp"
+        android:backgroundTint="#F4DD0E"
+        android:text="Select Furniture "
+        android:textColor="@color/Black"
+        android:textSize="14sp"
+        app:icon="@drawable/plus"
+        app:iconTint="@color/Black"
+        app:strokeColor="#F4DD0E"
+        app:strokeWidth="4dp" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/extclearfab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="253dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#F4DD0E"
+        android:text="Clear All"
+        android:textColor="@color/Black"
+        app:iconTint="#F4DD0E"
+        app:strokeColor="#F4DD0E"
+        app:strokeWidth="4dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/extlastclrfab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#F4DD0E"
+        android:text="Clear Last Item"
+        android:textColor="@color/Black"
+        app:cornerRadius="0.4dp"
+        app:iconTint="#F4DD0E"
+        app:strokeColor="#F4DD0E"
+        app:strokeWidth="4dp" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/aboutfab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/extmenufab"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="-3dp"
+        android:backgroundTint="#F4DD0E"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        app:icon="@drawable/info"
+        app:iconTint="@color/Black"
+        app:strokeColor="#F4DD0E"
+        app:strokeWidth="4dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
