@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">Interior Design</string>
+
+    <string name="app_name">Interior Design App</string>
+    <string name="navi_chair">Arm Chair</string>
+    <string name="navi_bed">Bed</string>
+    <string name="navi_desk">Desk</string>
+    <string name="navi_items">Items Selected</string>
+    <string name="navi_profile">Account</string>
+    <string name="navi_login">login</string>
+    <string name="navi_logout">logout</string>
+    <string name="navi_story">About</string>
+    <string name="short_couch">Short Couch</string>
+    <string name="profile">Profile</string>
+    <string name="clear">Clear</string>
+    <string name="tv_table">Tv table</string>
+    <string name="long_couch">Long Couch</string>
+    <string name="fluffy_chair">Fluffy chair</string>
+    <string name="bookshelf">Bookshelf</string>
+    <string name="_3_d_objects">3-D objects</string>
+    <string name="title_activity_navi">navi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="virtual_furniture">Virtual Furniture</string>
+    <string name="clear_last_item">Clear last item</string>
+
+
 </resources>

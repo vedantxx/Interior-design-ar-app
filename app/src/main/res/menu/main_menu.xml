@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/_3_d_objects">
+    <group>
+
+    <item
+        android:id="@+id/nav_bed"
+        android:title="@string/navi_bed" />
+    <item
+        android:id="@+id/nav_armchair"
+        android:title="@string/navi_chair" />
+
+        <item
+            android:id="@+id/nav_shortcouch"
+            android:title="@string/short_couch" />
+    <item
+        android:id="@+id/nav_bookshelf"
+        android:title="@string/bookshelf" />
+
+    <item
+        android:id="@+id/nav_fluffychair"
+        android:title="@string/fluffy_chair" />
+    <item
+        android:id="@+id/nav_longcouch"
+        android:title="@string/long_couch" />
+        <item
+            android:id="@+id/nav_desk"
+            android:title="@string/navi_desk" />
+
+
+    </group>
+    </item>
+
+</menu>
