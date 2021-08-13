@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashScreenActivity">
+    tools:context=".Splash_Screen_Main">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="#FFEB3B">
+        android:background="#28FFBF">
 
         <ImageView
             android:id="@+id/imageView2"
@@ -24,18 +24,21 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFFFFF"
+            android:background="#BCFFB9"
+            android:fontFamily="@font/ubuntu_mono_bold"
             android:gravity="center"
             android:paddingTop="20dp"
             android:text="Made With ❤️ By"
             android:textColor="@color/Black"
-            android:textStyle="normal" />
+            android:textStyle="bold
+" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFFFFF"
+            android:background="#BCFFB9"
+            android:fontFamily="@font/ubuntu_mono_bold"
             android:gravity="center_horizontal"
             android:paddingTop="10dp"
             android:paddingBottom="20dp"
