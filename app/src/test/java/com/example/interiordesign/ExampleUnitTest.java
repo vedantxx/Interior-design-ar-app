@@ -1,4 +1,4 @@
-package com.example.interiordesign;
+package com.ieee.interiordesign;
 
 import org.junit.Test;
 
