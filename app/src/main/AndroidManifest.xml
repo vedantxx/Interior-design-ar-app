@@ -22,6 +22,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name="com.ieee.interiordesign.PremainActivity"
+            android:exported="true" />
+        <activity
             android:name=".AboutActivity"
             android:exported="true" />
         <activity android:name=".Splash_Screen_Main">
