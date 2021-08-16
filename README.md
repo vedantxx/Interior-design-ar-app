@@ -7,7 +7,7 @@
 
 -All Backend integrations - Aarnav.
 
-[ .sfb and other file taken from far project by [@ayman](https://github.com/AymanKandil) and [@Bader](https://github.com/BaderAlJuma) ]
+(Due to size github limit sampledata folder containing .obj .mtl files are uploaded) 
 
 # Technologies :
 
