@@ -10,7 +10,7 @@ buildscript {
         maven{
             url"https://maven.google.com"
         }
-        
+
     }
     dependencies {
         def nav_version = "2.3.0"
@@ -28,7 +28,7 @@ allprojects {
         google()
         jcenter()
         maven { url "https://jitpack.io" }
-        
+
     }
 }
 

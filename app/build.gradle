@@ -9,7 +9,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.ieee.interiordesign"
+        applicationId "com.ameypandit.interiordesign"
         minSdkVersion 25
         ndkVersion "21.0.6113669"
         targetSdkVersion 29
@@ -82,32 +82,27 @@ dependencies {
 
 }
 
-
-sceneform.asset('sampledata/Desk.obj',
-        'default',
-        'sampledata/Desk.sfa',
-        'src/main/assets/Desk')
-
-sceneform.asset('sampledata/Armchair.obj',
-        'default',
-        'sampledata/Armchair.sfa',
-        'src/main/assets/Armchair')
-
-sceneform.asset('sampledata/Bed.obj',
-        'default',
-        'sampledata/Bed.sfa',
-        'src/main/assets/Bed')
-sceneform.asset('sampledata/Couch.obj',
-        'default',
-        'sampledata/Couch.sfa',
-        'src/main/assets/Couch')
-sceneform.asset('sampledata/Fluffy_Chair.obj',
-        'default',
-        'sampledata/Fluffy_Chair.sfa',
-        'src/main/assets/Fluffy_Chair')
-sceneform.asset('sampledata/Long_Couch.obj',
-        'default',
-        'sampledata/Long_Couch.sfa',
-        'src/main/assets/Long_Couch')
-
-
+sceneform.asset('sampledata/InteriorTest.obj', // 'Source Asset Path' specified during import.
+        'default',                    // 'Material Path' specified during import.
+        'sampledata/InteriorTest.sfa', // '.sfa Output Path' specified during import.
+        'src/main/assets/InteriorTest')      // '.sfb Output Path' specified during import.
+sceneform.asset('sampledata/room.obj', // 'Source Asset Path' specified during import.
+        'default',                    // 'Material Path' specified during import.
+        'sampledata/room.sfa', // '.sfa Output Path' specified during import.
+        'src/main/assets/room')      // '.sfb Output Path' specified during import.
+sceneform.asset('sampledata/the chair modeling.obj', // 'Source Asset Path' specified during import.
+        'default',                    // 'Material Path' specified during import.
+        'sampledata/the chair modeling.sfa', // '.sfa Output Path' specified during import.
+        'src/main/assets/the chair modeling')      // '.sfb Output Path' specified during import.
+sceneform.asset('sampledata/desktop.obj', // 'Source Asset Path' specified during import.
+        'default',                    // 'Material Path' specified during import.
+        'sampledata/desktop.sfa', // '.sfa Output Path' specified during import.
+        'src/main/assets/desktop')      // '.sfb Output Path' specified during import.
+sceneform.asset('sampledata/Table And Chairs.obj', // 'Source Asset Path' specified during import.
+        'default',                    // 'Material Path' specified during import.
+        'sampledata/Table And Chairs.sfa', // '.sfa Output Path' specified during import.
+        'src/main/assets/Table And Chairs')      // '.sfb Output Path' specified during import.
+sceneform.asset('sampledata/modern chair 11 obj.obj', // 'Source Asset Path' specified during import.
+        'default',                    // 'Material Path' specified during import.
+        'sampledata/modern chair 11 obj.sfa', // '.sfa Output Path' specified during import.
+        'src/main/assets/modern chair 11 obj')      // '.sfb Output Path' specified during import.

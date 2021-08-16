@@ -27,7 +27,7 @@
 
 
     <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
-        <item name="android:popupBackground">#BCFFB9</item>
+        <item name="android:popupBackground">#5089C6</item>
         <item name="android:textStyle">bold</item>
         <item name="android:titleTextStyle">@font/ubuntu_mono_bold</item>
         <item name="android:inputType">textCapSentences</item>

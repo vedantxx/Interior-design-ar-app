@@ -26,14 +26,14 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="40dp"
-        android:backgroundTint="#28FFBF"
-        android:fontFamily="@font/ubuntu_mono_bold"
+        android:backgroundTint="#2196F3"
+        android:fontFamily="@font/ubuntu_medium"
         android:text="Select Furniture "
-        android:textColor="@color/Black"
+        android:textColor="@color/white"
         android:textSize="14sp"
         app:icon="@drawable/add"
-        app:iconTint="@color/Black"
-        app:strokeColor="#28FFBF"
+        app:iconTint="@color/white"
+        app:strokeColor="#2196F3"
         app:strokeWidth="4dp" />
 
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
@@ -44,12 +44,12 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="246dp"
         android:layout_marginTop="15dp"
-        android:backgroundTint="#28FFBF"
-        android:fontFamily="@font/ubuntu_mono_bold"
+        android:backgroundTint="#2196F3"
+        android:fontFamily="@font/ubuntu_medium"
         android:text="Clear All"
-        android:textColor="@color/Black"
-        app:iconTint="#F4DD0E"
-        app:strokeColor="#28FFBF"
+        android:textColor="@color/white"
+        app:iconTint="#2196F3"
+        app:strokeColor="#2196F3"
         app:strokeWidth="4dp" />
 
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
@@ -62,13 +62,13 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:backgroundTint="#28FFBF"
-        android:fontFamily="@font/ubuntu_mono_bold"
+        android:backgroundTint="#2196F3"
+        android:fontFamily="@font/ubuntu_medium"
         android:text="@string/clear_last_item"
-        android:textColor="@color/Black"
+        android:textColor="@color/white"
         app:cornerRadius="0.4dp"
         app:iconTint="#F4DD0E"
-        app:strokeColor="#28FFBF"
+        app:strokeColor="#2196F3"
         app:strokeWidth="4dp" />
 
     <!--    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->

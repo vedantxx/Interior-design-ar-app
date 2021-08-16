@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="com.ieee.interiordesign">
+    package="com.ameypandit.interiordesign">
 
     <dist:module dist:instant="true" />
 
@@ -22,7 +22,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.ieee.interiordesign.PremainActivity"
+            android:name="com.ameypandit.interiordesign.PremainActivity"
             android:exported="true" />
         <activity
             android:name=".AboutActivity"

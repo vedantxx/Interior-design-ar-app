@@ -4,29 +4,27 @@
     <item android:title="@string/_3_d_objects">
     <group>
 
-    <item
-        android:id="@+id/nav_bed"
-        android:title="@string/navi_bed" />
-    <item
-        android:id="@+id/nav_armchair"
-        android:title="@string/navi_chair" />
-
         <item
-            android:id="@+id/nav_shortcouch"
-            android:title="@string/short_couch" />
-    <item
-        android:id="@+id/nav_bookshelf"
-        android:title="@string/bookshelf" />
-
-    <item
-        android:id="@+id/nav_fluffychair"
-        android:title="@string/fluffy_chair" />
-    <item
-        android:id="@+id/nav_longcouch"
-        android:title="@string/long_couch" />
+            android:id="@+id/livingroom"
+            android:title="VIRTUAL ROOM" />
         <item
-            android:id="@+id/nav_desk"
-            android:title="@string/navi_desk" />
+            android:id="@+id/livingroom2"
+            android:title="VIRTUAL LIVING ROOM" />
+        <item
+            android:id="@+id/chair"
+            android:title="CHAIR" />
+<!--        <item-->
+<!--            android:id="@+id/sofa"-->
+<!--            android:title="sofa" />-->
+        <item
+        android:id="@+id/desktop"
+        android:title="DESKTOP PC WITH TABLE" />
+        <item
+        android:id="@+id/tableandchair"
+        android:title="TABLE AND CHAIR" />
+        <item
+        android:id="@+id/mchair"
+        android:title="MODERN CHAIR" />
 
 
     </group>
